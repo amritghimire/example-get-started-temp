@@ -1,0 +1,6 @@
+[core]
+['remote "production"']
+    url = ssh://dvc-temp/ivan/test-multiple-remotes
+['remote "sandbox"']
+    url = s3://dvc-sandbox-temp/ivan/test-multiple-remotes
+
